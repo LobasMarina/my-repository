@@ -3,9 +3,9 @@ public class Dev1 {
         for (int a = 0; a <= 100; a++) {
             if (a % 3 == 0) {
                 int N = a / 3;
-                System.out.print(" 3*" + N);
+                System.out.println("3*" + N);
             } else {
-                System.out.print(" " + a);
+                System.out.println(a);
             	}
             }
         }
