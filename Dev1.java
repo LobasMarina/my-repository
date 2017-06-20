@@ -6,7 +6,6 @@ public class Dev1 {
                 System.out.println("3*" + N);
             } else {
                 System.out.println(a);
-            	}
             }
         }
     }
