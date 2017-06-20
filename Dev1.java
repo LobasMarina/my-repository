@@ -4,8 +4,10 @@ public class Dev1 {
             if (a % 3 == 0) {
                 int N = a / 3;
                 System.out.print(" 3*" + N);
-            } else
+            } else {
                 System.out.print(" " + a);
+            	}
+            }
         }
     }
 }
