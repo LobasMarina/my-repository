@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Numeric_sequence {
+public class NumericSequence {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a sequence of numbers: ");
