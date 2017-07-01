@@ -1,17 +1,16 @@
-import java.util.Scanner;
-
+/**
+* Reading the entered numbers and forming an array
+*/
 public class NumericSequence {
   public static void main(String[] args) {
-    System.out.println("Enter a sequence of numbers separated by spaces: ");
-    Scanner input = new Scanner(System.in);
-    String inputNumber = input.nextLine();
-    String array[] = inputNumber.split(" ");
-      for (int i = 0; i < array.length-1; i++) {
-        if (Integer.parseInt( array[i+1]) > Integer.parseInt( array[i])) {
-          System.out.println("The sequence is non-decreasing.");
-          return;
-        }
-      }  
-    System.out.println("The sequence is decreasing.");
+    Sequence sequence = new Sequence();
+    ReadFromConsole read = new ReadFromConsole();
+    String[] arr = read.splitLine();
+    if (args.length == 0) {
+      System.out.print(sequence.sequenceChek(arr));
+      System.out.print("true");
+    } else {
+      System.out.print(sequence.sequenceChek(args));
+    }
   }
 }
