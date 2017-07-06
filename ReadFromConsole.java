@@ -9,14 +9,10 @@ public class ReadFromConsole {
    *
    * @return the entered sequence.
    */
-
-  Scanner input;
-  String inputText;
-
   public String[] splitLine() {
-    input = new Scanner(System.in);
-    System.out.print("Enter the number: ");
-    inputText = input.nextLine();
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter the sequence of numbers separated by spaces: ");
+    String inputText = input.nextLine();
     return inputText.split(" ");
   }
 }

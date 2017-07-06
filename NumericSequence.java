@@ -8,11 +8,16 @@ public class NumericSequence {
   public static void main(String[] args) {
     Sequence sequence = new Sequence();
     ReadFromConsole read = new ReadFromConsole();
-    String[] arr = read.splitLine();
-    if (args.length == 0) {
-      System.out.print(sequence.sequenceChek(arr));
+    SequenceProvider provider = new SequenceProvider();
+    String[] consoleInput = args;
+    while (!(provider.checkOnLetters(consoleInput)) || consoleInput.length < 2) {
+      System.out.println("You have not entered enough numbers or wrong of values");
+      consoleInput = read.splitLine();
+    }
+    if (sequence.sequenceCheck(consoleInput)) {
+      System.out.println("Non-decreasing");
     } else {
-      System.out.print(sequence.sequenceChek(args));
+      System.out.println("Decreasing");
     }
   }
 }
