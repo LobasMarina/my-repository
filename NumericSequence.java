@@ -10,11 +10,11 @@ public class NumericSequence {
     ReadFromConsole read = new ReadFromConsole();
     SequenceProvider provider = new SequenceProvider();
     String[] consoleInput = args;
-    while (!(provider.checkOnLetters(consoleInput)) || consoleInput.length < 2) {
+    while (!(provider.checkOnCorrectness(consoleInput)) || consoleInput.length < 2) {
       System.out.println("You have not entered enough numbers or wrong of values");
       consoleInput = read.splitLine();
     }
-    if (sequence.sequenceCheck(consoleInput)) {
+    if (sequence.checkNonDecreasing(consoleInput)) {
       System.out.println("Non-decreasing");
     } else {
       System.out.println("Decreasing");

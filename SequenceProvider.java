@@ -1,11 +1,11 @@
 public class SequenceProvider {
   /**
-   * Checks sequences for entered letters
+   * This method checks the sequence for the correctness of the entered elements
    *
    * @param args a sequence to be analyzed
-   * @return false if the string contains a letter, true if the sequence does not contain letter
+   * @return false if the string contains the wrong item, true if the sequence contains only numbers
    */
-  public boolean checkOnLetters(String[] args) {
+  public boolean checkOnCorrectness(String[] args) {
     for (String currentElementOfMassive : args) {
       for (int i = 0; i < currentElementOfMassive.length(); i++) {
         if (!Character.isDigit(currentElementOfMassive.charAt(i))) {
