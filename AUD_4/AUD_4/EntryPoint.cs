@@ -11,7 +11,7 @@ namespace AUD_4
     {
       string path = "C:\\C#\\Lections";
       InformationAboutFiles file = new InformationAboutFiles();
-      file.GetInformation(path);
+      file.showInformation(path);
       Console.ReadKey();
     }
   }
