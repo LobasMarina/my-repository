@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordpress", "Test\Wordpress.csproj", "{4E2A7D99-75D3-4888-BA52-92C8460889D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{6BE21CCC-47D3-4CE5-9103-13A0068A1858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2A7D99-75D3-4888-BA52-92C8460889D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2A7D99-75D3-4888-BA52-92C8460889D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2A7D99-75D3-4888-BA52-92C8460889D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2A7D99-75D3-4888-BA52-92C8460889D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE21CCC-47D3-4CE5-9103-13A0068A1858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE21CCC-47D3-4CE5-9103-13A0068A1858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE21CCC-47D3-4CE5-9103-13A0068A1858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE21CCC-47D3-4CE5-9103-13A0068A1858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6A990F8-38D5-4B27-BE8B-F3EE2501B62B}
+	EndGlobalSection
+EndGlobal
