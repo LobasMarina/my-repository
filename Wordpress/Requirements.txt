@@ -1,0 +1,26 @@
+Subscriber actions:
+1. Post a comment(it will publish after moderation)
+
+Author actions:
+1. Post a comment(it will publish after moderation)
+2. Create post
+3. Edit his post
+
+Contributor actions:
+1. Create post(it will publish after moderation)
+2. Post a comment(it will publish after moderation)
+
+Editor actions:
+1. Create post
+2. Post a comment
+3. Approve comment 
+4. Approve post
+5. Delete comment
+6. Delete post
+7. Edit comment
+8. Edit post
+
+Admin actions:
+Same actions as editor and:
+1. Create users
+2. Delete users
